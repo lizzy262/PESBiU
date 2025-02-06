@@ -12,7 +12,7 @@
 
 ## Introduction
 
-**PESBiU** (Predictive Energy Saving for Baseband Units) is an ML-driven algorithm designed to optimize energy consumption in Baseband Units (BBUs) within 5G networks. Developed as part of a dissertation thesis called Advancing Optimalization of 5G Network Efficiency with ML and AI, PESBiU addresses the critical need for energy efficiency in the face of increasing data traffic and the demand for sustainable network operations.
+**PESBiU** (Predictive Energy Saving for Baseband Units) is an ML-driven algorithm designed to optimize energy consumption in Baseband Units (BBUs) within 5G networks. PESBiU addresses the critical need for energy efficiency in the face of increasing data traffic and the demand for sustainable network operations.
 
 This repository contains two versions of the PESBiU algorithm:
 
