@@ -8,7 +8,7 @@
   - [PESBiU 2.0](#pesbiu-20)
 - [Architecture](#architecture)
 - [Evaluation](#evaluation)
-- [References](#references)
+
 
 ## Introduction
 
