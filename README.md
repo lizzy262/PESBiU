@@ -53,7 +53,8 @@ The PESBiU system is structured into two main components corresponding to its ve
 ### PESBiU 2.0
 
 - **Simulation Setup**: Utilized a high-performance server with NVIDIA Tesla V100S-PCIE-32GB GPUs and CUDA 12.3 for training reinforcement learning agents.
-- **Results**: Enhanced energy savings with improved accuracy in traffic prediction and adaptive BBU management through reinforcement learning. Specific metrics and comparative analyses are detailed in the *Analysis* section of the dissertation. However to simplify it, we achieved 41.21% energy saving over a 24-hour period with DDDQN.
+- **Results**: Enhanced energy savings with improved accuracy in traffic prediction and adaptive BBU management through reinforcement learning. The evaluations demonstrate that PESBiU 2.0 can reduce BBU power consumption by up to 40% without
+compromising service quality. Precisely, we achieved 41.21% energy saving over a 24-hour period with DDDQN.
 
 
 
