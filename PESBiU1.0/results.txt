@@ -1,0 +1,106 @@
+Keras Model For GRU: 
+model = Sequential()
+model.add(GRU(50, input_shape=(X_train.shape[1], X_train.shape[2])))
+model.add(BatchNormalization())
+model.add(Dense(50,kernel_initializer='normal', activation='linear'))
+model.add(Dropout(0.2))
+model.add(Dense(15,kernel_initializer='normal', activation='elu'))
+model.add(Dense(15,kernel_initializer='normal', activation='elu'))
+model.add(Dense(2))
+model.compile(loss='mae', optimizer='adam')
+
+—— 
+
+Keras Model For LSTM: 
+model = Sequential()
+model.add(LSTM(50, input_shape=(X_train.shape[1], X_train.shape[2])))
+model.add(Dense(50,kernel_initializer='normal', activation='linear'))
+model.add(Dense(15,kernel_initializer='normal', activation='elu'))
+model.add(Dense(15,kernel_initializer='normal', activation='elu'))
+model.add(Dense(2))
+model.compile(loss='mae', optimizer='adam')
+
+Site A LSTM: 
+
+DL Results
+MAPE: 12.395372
+MAE: 1407.881196
+
+UL Results
+MAPE: 20.077279
+MAE: 249.974245
+
+
+Site A GRU:
+
+DL Results
+MAPE: 20.327317
+MAE: 2527.061138
+
+UL Results
+MAPE: 35.937407
+MAE: 378.695765
+
+
+——— 
+Site B LSTM: 
+
+DL Results
+MAPE: 15.447121
+MAE: 1208.687680
+UL Results
+MAPE: 13.735489
+MAE: 173.986666
+
+Site B GRU: 
+
+DL Results
+MAPE: 25.819177
+MAE: 1767.846063
+UL Results
+MAPE: 20.551177
+MAE: 323.359873
+
+—— 
+Site C LSTM:
+
+DL Results
+MAPE: 7.515447
+MAE: 1264.635318
+
+UL Results
+MAPE: 7.384041
+MAE: 198.803432
+
+
+Site C GRU:
+
+DL Results
+MAPE: 10.773707
+MAE: 1674.640469
+
+UL Results
+MAPE: 16.114256
+MAE: 350.021500
+
+——
+Site D LSTM:
+DL Results
+MAPE: 6.805527
+MAE: 460.765455
+
+UL Results
+MAPE: 8.277469
+MAE: 86.723036
+
+Site D GRU:
+DL Results
+MAPE: 15.892285
+MAE: 952.706487
+
+UL Results
+MAPE: 19.631691
+MAE: 196.087584
+
+
+
