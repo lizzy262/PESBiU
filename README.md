@@ -38,10 +38,9 @@ This repository contains two versions of the PESBiU algorithm:
 
 ## Architecture
 
-The PESBiU system is structured into two main components corresponding to its versions:
+The PESBiU system architecture is structured as follows corresponding to its version:
 
-1. **Prediction Module**: Uses machine learning models (LSTM for PESBiU 1.0 and Hyper-CNN-LSTM for PESBiU 2.0) to forecast traffic-related metrics.
-2. **Energy Management Module**: Implements algorithms to manage BBU states (active/sleep) based on predictions and reinforcement learning policies.
+![PESBiU Architecture](assets/pesbiu1vs2.drawio2.png) 
 
 ## Evaluation
 
